@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,600&display=swap'); */
+.card-text .icon a, i{
+    font-size: 30px;
+    justify-content: space-evenly !important;
+}
+
+
+.card-text .icon i:hover{
+    background-color: black !important;
+    color: white !important;
+    text-align: center;
+}
+hr{
+    color: blue !important;
+    width: 170px;
+    height: 10px !important;
+    text-align: center;
+}
+#download:hover{
+    background-color: white !important;
+    color: #0B5ED7;
+    font-weight: bold;
+}
