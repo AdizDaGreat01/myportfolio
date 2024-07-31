@@ -1,9 +1,11 @@
+// const { default: fileDownload } = require("js-file-download");
+
 function myFunction(event) {
 
 
     event.preventDefault();
 
-    let Firstname = document.getElementById("firstName").value;
+    let Firstname = document.getElementById("floatingInput").value;
     let Lastname = document.getElementById("lastName").value;
     let emaIl = document.getElementById("eMail").value;
     let TextArea = document.getElementById("FloatingtextArea").value;
@@ -26,7 +28,7 @@ function myFunction(event) {
 
     emailjs.send("service_koons1u", "portfolio_77", {
 
-        to_name: "braveheartsfoundation389@gmail.com",
+        to_name: "abubakarusman131220052gmail.com",
 
         from_name:  emaIl,
 
@@ -44,14 +46,19 @@ function myFunction(event) {
     // e.g., updating UI, making another API call, etc.
 };
 
-const downLoad = document.getElementById('download');
-
-function curriCulum(){
-    var fileDownload = require('js-file-download');
-    fileDownload(data, 'My Resume.pdf');
-};
-
-// document.getElementById('download').addEventListener('click', curriCulum);
 
 
-curriCulum();
+// function fileDownload (data, filename) {
+//     const file = new file ([data], {type: 'text/pdf'});
+
+//     const downLoad = document.getElementById('download');
+
+//     downLoad.addEventListener('click',  () => {
+//         const url = URL.createObjectURL('./files/my resume.pdf', 'type/pdf');
+//     })
+// }
+
+// // document.getElementById('download').addEventListener('click', curriCulum);
+
+
+// curriCulum();

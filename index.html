@@ -79,7 +79,7 @@
                     <hr>
                   </div>
                   <div class="text-center">
-                     <button onclick="curriCulum()" id="download" class="btn btn-primary align-items-center  mt-2">Download CV </button>
+                     <a id="download" class="btn btn-primary align-items-center  mt-2" href="https://drive.google.com/file/d/1NH6yE5AihYvlcHo20hrhA992F_U8nUO1/view?usp=sharing">Download CV</a>
                   </div>
                 </div>
             </div>
@@ -369,14 +369,17 @@
                     <fieldset>
                      <div>
                         <legend class="text-center fw-semibold">Leave Us A Message</legend>
-                        <div class="mb-3 input-group-lg ">
-                          <input type="text" placeholder="First Name *" class="form-control" id="firstName" required>
+                        <div class="form-floating mb-3 align-items-center">
+                          <input type="text" class="form-control"  id="floatingInput" placeholder="name@example.com" required>
+                          <label for="floatingInput" class="fs-5">First-Name <span class="text-danger">*</span></label>
                         </div>
-                        <div class="mb-3 input-group-lg">
-                          <input type="text" placeholder="Last Name *" class="form-control" id="lastName" required>
+                        <div class="mb-3 form-floating">
+                          <input type="text" placeholder="name@example.com" class="form-control" id="lastName" required>
+                           <label for="lastName" class="fs-5">Last-Name <span class="text-danger">*</span></label>
                         </div>
-                        <div class="mb-3 input-group-lg">
-                          <input type="email" placeholder="Email *" class="form-control" id="eMail" required>
+                        <div class="mb-3 form-floating">
+                          <input type="email" placeholder="name@example.com" class="form-control" id="eMail" required> 
+                          <label for="eMail" class="fs-5">Email <span class="text-danger">*</span></label>
                         </div>
                         <div class="form-floating">
                           <textarea class="form-control textArea" placeholder="Leave a comment here" id="FloatingtextArea" required></textarea>
